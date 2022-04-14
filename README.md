@@ -43,8 +43,7 @@ Below are sample images tested by implemented faster RCNN. As shown, faster RCNN
 
 ![image](https://user-images.githubusercontent.com/89004966/163300581-4f7a612c-bcce-466f-b664-f058f218cadc.png)
 
-
-![Uploading image.png…]()
+![Machine Vision Project](https://user-images.githubusercontent.com/89004966/163301579-eae3dcb1-3828-42a0-98cf-e7f25c7a7142.gif)
 
 
 
