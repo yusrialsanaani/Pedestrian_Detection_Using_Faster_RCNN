@@ -21,7 +21,19 @@ Faster RCNN has been trained on a sample of 269 images taken from PennFudanPed (
 
 The training and validation done with 15 epochs using PyTorch and OpenCV on Google Colab. 
 
-Training and validation loss over time have been obtained as shown in Fig. 3 and Fig. 4 respectively.
+Training and validation loss over epochs have been obtained as shown in Figures below:
 
-![image](https://user-images.githubusercontent.com/89004966/163299977-2b84f7c5-7b4a-48f8-afa9-d913a55caf30.png) ![image](https://user-images.githubusercontent.com/89004966/163300038-6bd59595-79d2-4d23-8524-844c9ef4674b.png)
+![image](https://user-images.githubusercontent.com/89004966/163300155-834bc6fd-cbba-4991-bc66-740dbdaddabe.png)
+
+![image](https://user-images.githubusercontent.com/89004966/163300174-4eae5250-c15e-4ead-a20e-df46cfba7565.png)
+
+The mean average precision (mAP) is a popular metric used to measure the performance of object detectors by comparing the actual bounding box to the detected box and returns a score. The higher the score, the more accurate the model is in its detections.
+
+The AP @ IoU = 0.5 is the mean average precision (mAP) at IoU threshold of 0.5 where AP @ IoU = 0.5:0.95 is the average mAP over different IoU thresholds, ranging from 0.5 to 0.95. Faster RCNN achieves very good mAP of 26.6% and 0.612 at IoU = 0.5:0.95 and IoU = 0.5 respectively.
+
+![image](https://user-images.githubusercontent.com/89004966/163300196-04c1970a-da28-44d1-8eb3-0629f7cc9902.png)
+
+Below are sample images tested by implemented faster RCNN. As shown, faster RCNN can detect pedestrians accurately crowded and uncrowded scenes in both images and videos. 
+
+![image](https://user-images.githubusercontent.com/89004966/163300481-b606cdbe-206e-400b-84c8-057bb52591af.png)
 
