@@ -23,4 +23,5 @@ The training and validation done with 15 epochs using PyTorch and OpenCV on Goog
 
 Training and validation loss over time have been obtained as shown in Fig. 3 and Fig. 4 respectively.
 
-![image](https://user-images.githubusercontent.com/89004966/163299977-2b84f7c5-7b4a-48f8-afa9-d913a55caf30.png)
+![image](https://user-images.githubusercontent.com/89004966/163299977-2b84f7c5-7b4a-48f8-afa9-d913a55caf30.png) ![image](https://user-images.githubusercontent.com/89004966/163300038-6bd59595-79d2-4d23-8524-844c9ef4674b.png)
+
